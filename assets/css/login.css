@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(#F08519, #FFFFFF);
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+#login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 60px;
+  flex-direction: column;
+  background-color: #F08519;
+  border-radius: 10px;
+}
+
+#login img {
+  width: 150px;
+}
+
+.mb-1 {
+  padding-bottom: 10px;
+}

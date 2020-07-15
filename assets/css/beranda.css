@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #E5E5E5;
+  min-height: 100%;
+  font-family: 'Do Hyeon', sans-serif;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+
+header{
+  background-image: linear-gradient(#F08519, #E5E5E5);
+  padding: 20px;
+  display: flex;
+}
+header img {
+  width: 50px;
+}
+header .kop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.container {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 20%;
+  column-gap: 10px;
+}
+.content {
+  padding: 10px;
+}
+.sidebar {
+  padding: 10px;
+}
+
+.content, .sidebar {
+  border-radius: 5px;
+  word-wrap: break-word;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14);
+}
+
+footer {
+  background-image: linear-gradient(#E5E5E5, #F08519);
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+footer .text {
+  color: #0C820C;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+footer img {
+  height: 2em;
+}
+
+.mr-2 {
+  margin-right: 20px;
+}
+.mb-2 {
+  margin-bottom: 20px;
+}
